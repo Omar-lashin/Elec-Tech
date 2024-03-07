@@ -1,0 +1,168 @@
+/* body{
+background-color: black;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 1000%;
+    color: aqua;
+}
+  
+  .box1, .box2{
+    width: 100%;
+    height: 500px;
+    border: 1px solid rgb(0, 0, 0);
+    
+  }
+  
+  .box1 {
+    background-color: rgb(10, 10, 10);
+  }
+  
+  .box2 {
+    background-color: rgb(43, 43, 43);
+  }
+  
+  .box3, .box4{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+  }
+  .box3 {
+    background-color: blue;
+  }
+  
+  .box4 {
+    background-color: yellow;
+  }
+   */
+body {
+  background-color: rgb(32, 32, 32);
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.row1,
+.row2 {
+  display: flex;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  width: 1000px;
+  height: 180px;
+  border: none;
+
+}
+
+.box1 {
+  background-color: rgb(68, 68, 68);
+}
+
+.box2 {
+  background-color: rgb(22, 22, 22);
+}
+
+.box3 {
+  background-color: rgb(22, 22, 22);
+}
+
+.box4 {
+  background-color: rgb(68, 68, 68);
+}
+
+.FEATURED-PRODUCTS {
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+.box5 {
+  width: 115px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: rgb(255, 0, 0);
+  margin: auto;
+
+
+  /* margin-top: px; */
+  /* margin-bottom: 20px; */
+
+}
+
+.itemsproducts {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.box {
+  width: 1000px;
+  height: 280px;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: rgb(46, 46, 46);
+
+}
+
+.box:last-child {
+  margin-right: 0px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: 5px;
+  font-size: 25px;
+  padding-left: 22px;
+  padding-top: 50px;
+  margin: 0;
+
+}
+
+h5 {
+  color: rgb(141, 141, 141);
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 22px;
+  /* margin-top: 2px; */
+  margin: 0;
+
+}
+
+h4 {
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: 5px;
+  font-size: 15px;
+  text-align: center;
+  margin-left: auto;
+  /* padding-bottom: 80px; */
+  /* margin: 0; */
+}
+
+.Item-name {
+  color: rgb(255, 255, 255);
+  margin-bottom: 170px;
+}
+
+/* .tv-image{
+  background-color: transparent;
+  width: px;
+ } */
