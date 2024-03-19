@@ -74,7 +74,10 @@ body {
 .box1 {
   background-color: rgb(68, 68, 68);
   display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
 }
+
 
 .box2 {
   background-color: rgb(22, 22, 22);
@@ -171,9 +174,15 @@ h4 {
   height: 280px;
 }
 
-.move-image {
+/* .move-image {
   padding-left: 50px;
   position: absolute;
   top: 115px;
   left: 345px;
+} */
+
+
+.tv-image{
+  width: 200px;
+  height: 200px;
 }
