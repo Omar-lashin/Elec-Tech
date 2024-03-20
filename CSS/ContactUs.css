@@ -1,0 +1,92 @@
+h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+p {
+    color: aliceblue;
+    font-size: large;
+}
+
+.Container-of-all-items {
+
+    width: 60%;
+    background-color: rgb(18, 17, 17);
+}
+
+.line {
+    width: 115px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 17, 0);
+}
+
+
+label {
+    color: rgb(255, 255, 255);
+    ;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+.labels-and-textFields input {
+    height: 30px;
+    margin-left: 40px;
+    width: 40vh;
+}
+
+input::placeholder {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+
+textarea {
+    background-color: rgb(244, 235, 223);
+    font-size: 15px;
+    padding: 45px;
+    font-weight: bold;
+    width: 350px;
+    resize: none;
+    height: 200px;
+
+}
+
+textarea::placeholder {
+    font-family: "Lato", sans-serif;
+}
+
+
+.submit-button input {
+    background-color: rgb(255, 17, 0);
+    border: rgb(255, 17, 0) solid 1px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 9px;
+    width: 120px;
+    font-weight: bold;
+}
+
+.submit-button input:hover {
+    background-color: rgb(255, 65, 43);
+    border-color: rgb(255, 65, 43);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icons img {
+    border: 1px solid rgb(244, 234, 234);
+    background-color: white;
+    border-radius: 60px;
+    padding: 2px;
+    margin: 10px;
+}
+
+.icons img:hover {
+    background-color: rgb(255, 17, 0);
+    border-color: rgb(255, 17, 0);
+    transition: 0.2s;
+    cursor: pointer;
+
+}
