@@ -33,8 +33,15 @@ label {
 
 .labels-and-textFields input {
     height: 30px;
-    margin-left: 40px;
+    margin-left: 60px;
     width: 40vh;
+    border-color: rgb(255, 17, 0);
+    border-width: 2px;
+}
+
+#Email,
+#Name {
+    margin-left: 70px;
 }
 
 input::placeholder {
@@ -50,6 +57,8 @@ textarea {
     width: 350px;
     resize: none;
     height: 200px;
+    border-color: rgb(255, 17, 0);
+    border-width: 2px;
 
 }
 
