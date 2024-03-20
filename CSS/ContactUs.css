@@ -1,10 +1,12 @@
-h1 {
+/* Contact Us */
+
+.contactus-header {
     color: white;
     font-size: 3rem;
     text-align: center;
 }
 
-p {
+.header-paragraph {
     color: aliceblue;
     font-size: large;
 }
@@ -13,6 +15,7 @@ p {
 
     width: 60%;
     background-color: rgb(18, 17, 17);
+    border-radius: 15px;
 }
 
 .line {
@@ -37,6 +40,7 @@ label {
     width: 40vh;
     border-color: rgb(255, 17, 0);
     border-width: 2px;
+    border-radius: 5px;
 }
 
 #Email,
@@ -47,6 +51,7 @@ label {
 input::placeholder {
     font-family: "Lato", sans-serif;
     font-weight: bold;
+    padding: 5px;
 }
 
 textarea {
@@ -59,6 +64,7 @@ textarea {
     height: 200px;
     border-color: rgb(255, 17, 0);
     border-width: 2px;
+    border-radius: 5px;
 
 }
 
@@ -98,4 +104,94 @@ textarea::placeholder {
     transition: 0.2s;
     cursor: pointer;
 
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    height: 320px;
+}
+
+.footer {
+    display: flex;
+    margin: 0px;
+}
+
+.all-links-container {
+    display: flex;
+}
+
+.footer-header h1,
+.navs2 h3,
+.QuickLinks-header,
+.Others h3 {
+    color: rgb(255, 17, 0);
+}
+
+.footer-header p {
+    color: aliceblue;
+}
+
+.footer-header {
+    padding-left: 20px;
+    padding-top: 60px;
+}
+
+.navs1,
+.navs2,
+.Others {
+    padding-left: 60px;
+}
+
+.navs1 ul,
+.navs2 ul {
+    list-style: none;
+    margin: 0px;
+}
+
+.navs1 li,
+.navs2 li {
+    padding-top: 20px;
+}
+
+.navs2 li a,
+.navs1 li a {
+
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0px;
+
+}
+
+.navs2 li a:hover,
+.navs1 li a:hover {
+    color: rgb(255, 17, 0);
+    transition: 0.2s;
+}
+
+.icons2 p {
+    margin: 0px;
+    color: white;
+    padding-top: 5px;
+}
+
+.icons2 {
+    padding-top: 20px;
+}
+
+.icons2 a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.icons2 img {
+    height: 20px;
+}
+
+#reserved {
+    font-size: small;
+    color: aliceblue;
+    padding-left: 20px;
 }
