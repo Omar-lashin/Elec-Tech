@@ -1,67 +1,101 @@
-body {
+h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
 
-    background-color: rgb(37, 37, 37);
-    font-family: Arial, Helvetica, sans-serif;
+p {
+    color: aliceblue;
+    font-size: large;
+}
+
+.Container-of-all-items {
+
+    width: 60%;
+    background-color: rgb(18, 17, 17);
+}
+
+.line {
+    width: 115px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 17, 0);
+}
+
+
+label {
+    color: rgb(255, 255, 255);
+    ;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+.labels-and-textFields input {
+    height: 30px;
+    margin-left: 60px;
+    width: 40vh;
+    border-color: rgb(255, 17, 0);
+    border-width: 2px;
+}
+
+#Email,
+#Name {
+    margin-left: 70px;
+}
+
+input::placeholder {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+
+textarea {
+    background-color: rgb(244, 235, 223);
+    font-size: 15px;
+    padding: 45px;
+    font-weight: bold;
+    width: 350px;
+    resize: none;
+    height: 200px;
+    border-color: rgb(255, 17, 0);
+    border-width: 2px;
 
 }
 
-header {
-    text-align: right;
-    margin: 0px;
-}
-
-.linkIcons1 {
-    text-decoration: none;
-    padding: 20px;
-    color: rgb(255, 17, 0);
-    font-size: 14px;
+textarea::placeholder {
+    font-family: "Lato", sans-serif;
 }
 
 
-.linkIcons2 {
-    text-decoration: none;
-    padding-top: 30px;
-    padding-right: 20px;
-    color: rgb(249, 249, 249);
-    font-size: 16px;
-
-
+.submit-button input {
+    background-color: rgb(255, 17, 0);
+    border: rgb(255, 17, 0) solid 1px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 9px;
+    width: 120px;
+    font-weight: bold;
 }
 
-.linkIcons2:hover {
-    color: rgb(255, 17, 0);
+.submit-button input:hover {
+    background-color: rgb(255, 65, 43);
+    border-color: rgb(255, 65, 43);
     transition: 0.3s;
+    cursor: pointer;
 }
 
-
-
-#elechtechicon {
-    display: flex;
-    margin: 0px;
-    padding-left: 35px;
-    padding-top: 5px;
-    height: 40px;
+.icons img {
+    border: 1px solid rgb(244, 234, 234);
+    background-color: white;
+    border-radius: 60px;
+    padding: 2px;
+    margin: 10px;
 }
 
-nav {
-    text-align: left;
-    background-color: black;
-    padding: 15px;
-    margin-top: 10px;
-    width: 100%;
-
-}
-
-nav a {
-    text-decoration: none;
-    color: rgb(249, 249, 249);
-    font-size: 18px;
-    padding-left: 50px;
-}
-
-nav a:hover {
-    color: rgb(255, 17, 0);
-    transition: 0.3s;
-
+.icons img:hover {
+    background-color: rgb(255, 17, 0);
+    border-color: rgb(255, 17, 0);
+    transition: 0.2s;
+    cursor: pointer;
 
 }
