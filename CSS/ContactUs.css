@@ -1,20 +1,21 @@
 /* Contact Us */
 
 .contactus-header {
-    color: white;
+    color: black;
     font-size: 3rem;
     text-align: center;
 }
 
 .header-paragraph {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: large;
+    font-weight: bold;
 }
 
 .Container-of-all-items {
 
     width: 60%;
-    background-color: rgb(18, 17, 17);
+    background-color: black;
     border-radius: 15px;
 }
 
@@ -22,12 +23,12 @@
     width: 115px;
     height: 5px;
     border-radius: 5px;
-    background-color: rgb(255, 17, 0);
+    background-color: rgb(0, 145, 255);
 }
 
 
 label {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 145, 255);
     ;
     font-size: x-large;
     font-weight: bold;
@@ -38,7 +39,7 @@ label {
     height: 30px;
     margin-left: 60px;
     width: 40vh;
-    border-color: rgb(255, 17, 0);
+    border-color: rgb(0, 145, 255);
     border-width: 2px;
     border-radius: 5px;
 }
@@ -62,7 +63,7 @@ textarea {
     width: 350px;
     resize: none;
     height: 200px;
-    border-color: rgb(255, 17, 0);
+    border-color: rgb(0, 145, 255);
     border-width: 2px;
     border-radius: 5px;
 
@@ -74,8 +75,8 @@ textarea::placeholder {
 
 
 .submit-button input {
-    background-color: rgb(255, 17, 0);
-    border: rgb(255, 17, 0) solid 1px;
+    background-color: rgb(0, 75, 161);
+    border: rgb(0, 65, 116);
     color: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 9px;
@@ -84,8 +85,8 @@ textarea::placeholder {
 }
 
 .submit-button input:hover {
-    background-color: rgb(255, 65, 43);
-    border-color: rgb(255, 65, 43);
+    background-color: rgb(0, 145, 255);
+    border-color: rgb(0, 145, 255);
     transition: 0.3s;
     cursor: pointer;
 }
@@ -99,8 +100,8 @@ textarea::placeholder {
 }
 
 .icons img:hover {
-    background-color: rgb(255, 17, 0);
-    border-color: rgb(255, 17, 0);
+    background-color: rgb(0, 145, 255);
+    border-color: rgb(0, 145, 255);
     transition: 0.2s;
     cursor: pointer;
 
@@ -110,7 +111,7 @@ textarea::placeholder {
 
 footer {
     background-color: black;
-    height: 320px;
+    height: 370px;
 }
 
 .footer {
@@ -126,7 +127,7 @@ footer {
 .navs2 h3,
 .QuickLinks-header,
 .Others h3 {
-    color: rgb(255, 17, 0);
+    color: rgb(0, 145, 255);
 }
 
 .footer-header p {
@@ -166,7 +167,7 @@ footer {
 
 .navs2 li a:hover,
 .navs1 li a:hover {
-    color: rgb(255, 17, 0);
+    color: rgb(0, 145, 255);
     transition: 0.2s;
 }
 
@@ -192,6 +193,6 @@ footer {
 
 #reserved {
     font-size: small;
-    color: aliceblue;
+    color: rgb(0, 145, 255);
     padding-left: 20px;
 }
