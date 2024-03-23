@@ -102,6 +102,38 @@ body {
   }
 
 }
+.schedule-table-container
+ {
+  padding: 7px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.schedule-table th {
+  background-image: linear-gradient(to right, rgb(138, 25, 214), rgb(11, 178, 224));
+  background-color: #007bff; /* Blue */
+  color: white;
+}
+
+.schedule-table tbody tr:nth-child(even) {
+  background-color: #f8f9fa; /* Light gray */
+}
+
+.schedule-table tbody tr:hover {
+  background-color: #cce5ff; /* Light blue */
+}
+
 
 
 /*MEDIA QUERY*/
