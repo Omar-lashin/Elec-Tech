@@ -1,35 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+
 }
 
 body {
 
-    background-color: rgb(255, 255, 255);
-    font-family: "Lato", sans-serif;
+  background-color: rgb(255, 255, 255);
+  font-family: "Lato", sans-serif;
+  margin: 0px;
 }
 
-.nav-elements{
-    
-    text-align: center;
-    color: #365486;
-    height: 35px;
-  
-  }
-  .nav-elements a{
-    
-    text-align: left;
-    color: #365486; 
-    font-size: 22px;
-    text-decoration: none;
-    padding: 15px;
-  }
- 
-#imgofcontainer {
+.nav-elements {
 
-    width: 100%;
-    height: 80vh;
+  text-align: center;
+  color: #365486;
+  height: 35px;
+  padding-top: 20px;
+
+}
+
+.nav-elements a {
+  color: #365486;
+  font-size: 22px;
+  text-decoration: none;
+  padding: 15px 20px;
+}
+
+.nav-elements a:hover {
+
+  color: rgb(0, 145, 255);
+  transition: 0.4s;
+
+}
+
+.container {
+  background-image: linear-gradient(to right, rgb(138, 25, 214), rgb(11, 178, 224));
+  width: 100%;
+  height: 547px;
+  color: #c8cacc;
+  display: flex;
+
+}
 
 
+.container-text {
+
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 70px;
+}
+
+.container-head {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 50px;
+
+}
+
+
+.container-head h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.container-head h2 {
+  font-size: 35px;
+  color: #c8cacc;
+}
+
+.container-head h2,
+.container-head h1 {
+  margin: 0px;
+}
+
+
+
+.container-text p {
+  margin: 4px;
+  color: black;
+  font-size: large;
+  padding-left: 150px;
 }
