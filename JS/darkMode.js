@@ -2,7 +2,7 @@
 const darkModeClasses = ['dark-mode', 'dark-mode1', 'dark-mode2', 'dark-mode3','dark-mode4'];
 
 // Add an event listener to listen for changes in the checkbox state
-document.getElementById('mode-toggle').addEventListener('change', function() {
+document.getElementById('toggle').addEventListener('change', function() {
   // Toggle the dark mode classes based on the checkbox state
   darkModeClasses.forEach(className => {
     document.body.classList.toggle(className, this.checked);
@@ -23,3 +23,23 @@ window.addEventListener('load', function() {
     }
   });
 });
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    scrollToTopBtn.classList.add("show");
+  } else {
+    scrollToTopBtn.classList.remove("show");
+  }
+}
+
+document.getElementById("scrollToTopBtn").onclick = function() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+};
+
+
+
